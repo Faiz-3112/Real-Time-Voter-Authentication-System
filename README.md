@@ -119,9 +119,11 @@ Install the required Python libraries using the following command:
 - Database Management: SQLite3 is used to store and manage voter information securely.
 - Encryption: Sensitive data, such as barcodes, are encrypted using the cryptography.fernet module before being stored in the database.
 
-  ## License
+## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under a proprietary license. All rights are reserved by the author.
+
+For more details, see the [LICENSE](LICENSE) file.
 
 ## Contact
 
