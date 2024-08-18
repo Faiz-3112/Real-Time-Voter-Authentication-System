@@ -15,6 +15,7 @@ Real-Time Voter Authentication System: An advanced voting solution using barcode
   - [4. Create and Populate the Database](#4-create-and-populate-the-database)
   - [5. Run the Voter Verification System](#5-run-the-voter-verification-system)
 - [How It Works](#how-it-works)
+- [Troubleshooting dlib Installation](#troubleshooting-dlib-installation)
 - [License](#license)
 - [Contact](#contact)
 - [Disclaimer](#disclaimer)
@@ -118,6 +119,32 @@ Install the required Python libraries using the following command:
 - Face Recognition: The face_recognition library compares the real-time image captured by the webcam with the stored image in the database.
 - Database Management: SQLite3 is used to store and manage voter information securely.
 - Encryption: Sensitive data, such as barcodes, are encrypted using the cryptography.fernet module before being stored in the database.
+
+## Troubleshooting dlib Installation
+
+  - If you encounter issues installing dlib directly via pip, follow these steps:
+
+    1. Download Precompiled Package:
+
+        Visit [this GitHub repository](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) to download the appropriate dlib package for your Python version.
+
+
+    2. Install Manually:
+
+        After downloading the wheel file, navigate to the directory where it is located and run:
+
+            pip install dlib-<version>-cp<python_version>-none-win_amd64.whl
+       
+        Replace <version> and <python_version> with the version and Python version of the downloaded package.
+        
+    4. Verify Installation:
+        To ensure dlib is installed correctly, run:
+
+            import dlib
+            print(dlib.__version__)
+If issues persist, consult the [dlib documentation](http://dlib.net/) or seek help in [relevant forums](https://github.com/dlib/dlib/issues) for additional support.
+
+
 
 ## License
 
