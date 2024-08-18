@@ -1,6 +1,5 @@
 cffi==1.17.0
 cryptography==43.0.0
-dlib @ file:///C:/Users/dream/Desktop/complete%20projects/ECI/dlib-19.24.99-cp312-cp312-win_amd64.whl#sha256=20c62e606ca4c9961305f7be3d03990380d3e6c17f8d27798996e97a73271862
 numpy==1.26.4
 opencv-python==4.10.0.84
 pycparser==2.22
